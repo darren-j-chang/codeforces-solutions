@@ -37,5 +37,138 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
+
+# CLion / JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+cmake-build-*/
+.cmake/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Build directories
+build/
+Build/
+BUILD/
+out/
+bin/
+lib/
+libs/
+target/
+
+# macOS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Core dumps
+core
+*.core
+*.stackdump
+
+# Profiling data
+*.gprof
+gmon.out
+
+# Valgrind
+*.memcheck
+*.helgrind
+*.cachegrind
+*.callgrind
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+*.info
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Xcode (if using Xcode on macOS)
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+
+# Conan
+conanfile.txt.user
+conaninfo.txt
+conanbuildinfo.*
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+
+# Log files
+*.log
+
+# Test results
+test_results/
+test-results/
+
+# Documentation generated files
+doc/html/
+doc/latex/
+docs/html/
+docs/latex/
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
