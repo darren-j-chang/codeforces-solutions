@@ -1,7 +1,7 @@
 //
 // Created by Darren Chang on 8/6/25.
 //
-# include <iostream>
+#include <iostream>
 
 int main() {
     int n;
