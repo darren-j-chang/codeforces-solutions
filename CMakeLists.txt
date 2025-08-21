@@ -8,4 +8,5 @@ add_executable(codeforces_solutions
         800/231A-Team.cpp
         800/282A-Bit++.cpp
         800/4A-Watermelon.cpp
-        800/71A-WayTooLongWords.cpp)
+        800/71A-WayTooLongWords.cpp
+        800/50A-DominoPiling.cpp)
